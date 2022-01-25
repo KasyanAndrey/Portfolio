@@ -1,8 +1,13 @@
 @import "fonts";
+@import "header";
 
-body {
-  font-family: montserrat;
-  background-image: url("@img/nigth.png");
+h2 {
+  font-size: 36px;
+  font-family: sparta, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+
+  // background-image: url("@img/nigth.png");
 }
 
 // @media (max-width: 768px) {
