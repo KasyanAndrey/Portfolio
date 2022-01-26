@@ -1,23 +1,43 @@
 @import "fonts";
 @import "header";
+// @import "about-me";
+// @import "skills";
+// @import "works";
+// @import "contact";
+// @import "footer";
 
-h2 {
-  font-size: 36px;
-  font-family: sparta, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-
-  // background-image: url("@img/nigth.png");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
+body {
+  background-size: cover;
+  font-family: sparta, sans-serif;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+// background-image: url("@img/nigth.png");
+
 // @media (max-width: 768px) {
-//   span{
-//     font-size: 20px;
-//   }
+
 // }
 
 // @media (max-width: 768px) {
-//   body{
-//     background-color: #444
-//   }
+
 // }
