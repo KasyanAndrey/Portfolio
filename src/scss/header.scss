@@ -2,7 +2,7 @@
   max-width: 1280px;
   height: 826px;
   margin: 0 auto;
-  background-image: url("../img/hdr.png");
+  background-image: url("../img/bg-hdr.svg");
   padding: 40px;
   background-repeat: no-repeat;
   //   background-color: burlywood;
@@ -19,7 +19,7 @@
 .navigation-img {
   width: 150px;
   height: 110px;
-  background-image: url("../img/nvg.png");
+  background-image: url("../img/bg-nav.svg");
   background-repeat: no-repeat;
   position: absolute;
   z-index: -1;
@@ -40,10 +40,21 @@
   cursor: pointer;
   outline: none;
   color: #fff;
+  font-weight: 600;
+}
+
+.navigation-link:hover {
+  color: #f44336;
+  transition: color 0.2s linear;
 }
 
 .span {
-  color: red;
+  color: #fff;
+}
+
+.span:hover {
+  color: #000c24;
+  transition: color 0.2s linear;
 }
 
 .hero {
@@ -68,7 +79,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-.hero{
+.hero {
   height: 400px;
 }
 
@@ -78,16 +89,57 @@ h2 {
   height: 36px;
 }
 
-.hero-item {
+.hero-link {
+  display: inline-flex;
   margin-right: 10px;
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  background-color: #fff;
-  text-align: center;
+  justify-content: baseline;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.hero-btn{
+.hero-link:hover {
+  transform: scale(1.1);
+}
+
+.github {
+  background-image: url("../img/github.svg");
+}
+
+.linkedin {
+  background-image: url("../img/linkedin.svg");
+}
+
+.telegram {
+  background-image: url("../img/telegram.svg");
+  background-repeat: no-repeat;
+}
+
+.gmail {
+  background-image: url("../img/email.svg");
+  background-repeat: no-repeat;
+}
+
+.hero-btn {
   position: absolute;
   bottom: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  align-items: center;
+  background-image: url("../img/scrll.svg");
+  background-repeat: no-repeat;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.hero-btn:hover {
+  transition: 0.2s linear;
+  transform: scale(1.1);
 }
