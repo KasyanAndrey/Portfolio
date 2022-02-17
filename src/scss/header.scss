@@ -117,13 +117,7 @@ h2 {
   position: absolute;
   bottom: 80px;
   left: 40px;
-  // transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
-
-// .hero-btn:hover {
-//   transition: 0.2s linear;
-//   transform: scale(1.1);
-// }
 
 @media (min-width: 425px) {
   .container {
@@ -209,168 +203,78 @@ h2 {
     height: 826px;
   }
 
+  .navigation-link {
+    color: #fff;
+    font-size: 16px;
+  }
+
   .navigation-link:hover {
     color: #f44336;
     transition: color 0.2s linear;
+  }
+
+  .span {
+    color: #fff;
   }
 
   .span:hover {
     color: #000c24;
     transition: color 0.2s linear;
   }
+
+  .hero {
+    text-align: left;
+    padding-left: 40px;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  .hero-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-link {
+    display: inline-flex;
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .hero-link:hover {
+    transform: scale(1.1);
+  }
+
+  .scrll-btn {
+    width: 24px;
+    height: 24px;
+    bottom: 100px;
+    transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  }
+
+  .scrll-btn:hover {
+    transition: 0.2s linear;
+    transform: scale(1.1);
+  }
 }
 
-// ===================================================
-// @media (max-width: 768px) {
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
 
-// }
+  .hero {
+    top: 250px;
+  }
 
-// @media (max-width: 768px) {
-
-// }
-
-// .container {
-//   max-width: 1280px;
-//   height: 826px;
-//   margin: 0 auto;
-//   background-image: url("../img/bg-hdr.svg");
-//   padding: 40px;
-//   background-repeat: no-repeat;
-//   //   background-color: burlywood;
-// }
-
-// .navigation {
-//   width: 598px;
-//   height: 112px;
-//   //   background-color: cadetblue;
-//   position: absolute;
-//   z-index: 1;
-// }
-
-// .navigation-img {
-//   width: 150px;
-//   height: 110px;
-//   background-image: url("../img/bg-nav.svg");
-//   background-repeat: no-repeat;
-//   position: absolute;
-//   z-index: -1;
-// }
-
-// .navigation-list {
-//   padding-top: 40px;
-//   padding-left: 12px;
-//   display: flex;
-//   justify-content: space-around;
-//   color: #fff;
-//   //   background-color: hotpink;
-// }
-
-// .navigation-link {
-//   display: block;
-//   text-decoration: none;
-//   cursor: pointer;
-//   outline: none;
-//   color: #fff;
-//   font-weight: 600;
-// }
-
-// .navigation-link:hover {
-//   color: #f44336;
-//   transition: color 0.2s linear;
-// }
-
-// .span {
-//   color: #fff;
-// }
-
-// .span:hover {
-//   color: #000c24;
-//   transition: color 0.2s linear;
-// }
-
-// .hero {
-//   position: absolute;
-//   top: 336px;
-// }
-
-// h1 {
-//   font-size: 54px;
-//   font-weight: 800;
-//   letter-spacing: 0.08em;
-//   text-transform: uppercase;
-//   color: #fff;
-//   margin-bottom: 24px;
-// }
-
-// h2 {
-//   font-size: 36px;
-//   font-weight: 600;
-//   letter-spacing: 0.08em;
-//   color: #fff;
-//   margin-bottom: 30px;
-// }
-
-// .hero {
-//   height: 400px;
-// }
-
-// .hero-list {
-//   display: flex;
-//   width: 200px;
-//   height: 36px;
-// }
-
-// .hero-link {
-//   display: inline-flex;
-//   margin-right: 10px;
-//   width: 24px;
-//   height: 24px;
-//   border-radius: 50%;
-//   justify-content: baseline;
-//   transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-// }
-
-// .hero-link:hover {
-//   transform: scale(1.1);
-// }
-
-// .github {
-//   background-image: url("../img/github.svg");
-// }
-
-// .linkedin {
-//   background-image: url("../img/linkedin.svg");
-// }
-
-// .telegram {
-//   background-image: url("../img/telegram.svg");
-//   background-repeat: no-repeat;
-// }
-
-// .gmail {
-//   background-image: url("../img/email.svg");
-//   background-repeat: no-repeat;
-// }
-
-// .hero-btn {
-//   position: absolute;
-//   bottom: 0;
-//   width: 24px;
-//   height: 24px;
-//   display: flex;
-//   text-decoration: none;
-//   cursor: pointer;
-//   outline: none;
-//   background-color: transparent;
-//   border: none;
-//   color: #fff;
-//   align-items: center;
-//   background-image: url("../img/scrll.svg");
-//   background-repeat: no-repeat;
-//   transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-// }
-
-// .hero-btn:hover {
-//   transition: 0.2s linear;
-//   transform: scale(1.1);
-// }
+  .scrll-btn {
+    bottom: 150px;
+  }
+}
