@@ -1,6 +1,6 @@
 @import "fonts";
 @import "header";
-// @import "about-me";
+@import "about-me";
 // @import "skills";
 // @import "works";
 // @import "contact";
@@ -19,6 +19,9 @@ body {
   font-family: sparta, sans-serif;
   font-style: normal;
   line-height: 1.2;
+}
+main{
+  position: relative;
 }
 
 ul,
